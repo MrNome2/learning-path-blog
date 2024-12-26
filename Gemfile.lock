@@ -120,7 +120,6 @@ GEM
     fugit (1.11.1)
       et-orbi (~> 1, >= 1.2.11)
       raabro (~> 1.4)
-    gem (0.0.1.alpha)
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.6)
@@ -399,7 +398,6 @@ DEPENDENCIES
   debug
   devise (~> 4.9)
   foreman (~> 0.88.1)
-  gem (~> 0.0.1.alpha)
   importmap-rails
   jbuilder
   kamal
