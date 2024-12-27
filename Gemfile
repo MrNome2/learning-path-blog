@@ -16,7 +16,6 @@ gem "turbo-rails"
 gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
-gem "pg", "~> 1.6.0"
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
 
@@ -69,3 +68,5 @@ gem "devise", "~> 4.9"
 gem "tailwindcss-rails", "~> 3.0"
 
 gem "foreman", "~> 0.88.1"
+
+gem "pg", "~> 1.5", ">= 1.5.9"
