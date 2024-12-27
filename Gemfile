@@ -68,3 +68,8 @@ gem "devise", "~> 4.9"
 gem "tailwindcss-rails", "~> 3.0"
 
 gem "foreman", "~> 0.88.1"
+
+gem "pf", "~> 0.1.2"
+
+gem "gem", "~> 0.0.1.alpha"
+gem "pg", "~> 1.5"
