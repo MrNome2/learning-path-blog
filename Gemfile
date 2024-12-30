@@ -69,6 +69,6 @@ gem "tailwindcss-rails", "~> 3.0"
 
 gem "foreman", "~> 0.88.1"
 
-gem "pf", "~> 0.1.2"
+gem "pf", "~> 0.2.0"
 
 gem "pg", "~> 1.5"
