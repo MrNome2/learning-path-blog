@@ -23,6 +23,7 @@ RUN apt-get update -qq && \
 ENV RAILS_ENV="production" \
     BUNDLE_DEPLOYMENT="1" \
     BUNDLE_PATH="/root/.local/share/gem/ruby/3.3.0" \
+    BUNDLE_PATH="/root/.local/share/mise/installs/ruby/3.3.6/lib/ruby/gems/3.3.0" \
     BUNDLE_WITHOUT="development"
 
 # Throw-away build stage to reduce size of final image
