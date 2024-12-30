@@ -19,11 +19,10 @@ RUN apt-get update -qq && \
     apt-get install --no-install-recommends -y curl libjemalloc2 libvips sqlite3 && \
     rm -rf /var/lib/apt/lists /var/cache/apt/archives
 
-ENV BUNDLE_PATH="/root/.local/share/mise/installs/ruby/3.3.6/lib/ruby/gems/3.3.0"
-
 # Set production environment
 ENV RAILS_ENV="production" \
     BUNDLE_DEPLOYMENT="1" \
+    BUNDLE_PATH="/root/.local/share/gem/ruby/3.3.0" \
     BUNDLE_WITHOUT="development"
 
 # Throw-away build stage to reduce size of final image
