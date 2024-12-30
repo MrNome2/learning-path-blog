@@ -65,7 +65,7 @@ gem "slim-rails", "~> 3.6"
 
 gem "devise", "~> 4.9"
 
-gem "tailwindcss-rails", "~> 3.0"
+gem "tailwindcss-rails", "~> 3.1"
 
 gem "foreman", "~> 0.88.1"
 
