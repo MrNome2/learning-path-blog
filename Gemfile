@@ -61,7 +61,7 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "slim-rails", "~> 3.6"
+gem "slim-rails", "~> 3.7"
 
 gem "devise", "~> 4.9"
 
